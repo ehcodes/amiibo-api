@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+	clear: both;
+}
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+body {
+  color: forestgreen;
+  background-color: gray;
+  font-size: 20px;
+  line-height: 1;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+section {
+	width: 80%;
+	margin: auto;
+  text-shadow: 1px 1px 2px black;
+}
+img {
+  width: 70%;
+}
+header img{
+  width: 80%;
+}
+@media only screen and (max-width:620px){
+  body{
+    font-size: 16px;
+  }
+}
